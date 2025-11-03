@@ -6,7 +6,7 @@ import time
 from tqdm import tqdm
 
 # --- 配置 ---
-GOOGLE_API_KEY = 'AIzaSyB1CnisVnAvzvXsSL9GbwZzXqubrylZtI8'
+GOOGLE_API_KEY = ''
 client = genai.Client(api_key=GOOGLE_API_KEY)
 
 # 行业数据在一个CSV文件中
