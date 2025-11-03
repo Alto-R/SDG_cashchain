@@ -5,7 +5,7 @@ import asyncio
 from tqdm.asyncio import tqdm as async_tqdm
 
 # --- 配置 ---
-SILICONFLOW_API_KEY = 'sk-zguxxadjdszwfsynkpfajdsjcbgqxsmtqpezwvgdulbmgeab'
+SILICONFLOW_API_KEY = ''
 client = AsyncOpenAI(
     api_key=SILICONFLOW_API_KEY,
     base_url="https://api.siliconflow.cn/v1"
