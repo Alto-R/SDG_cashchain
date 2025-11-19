@@ -1,0 +1,256 @@
+﻿sdg_goal,sdg_name,flow_category_key,flow_category,flow_category_desc,rank,source_goal,source_goal_name,source_sdg,target_goal,target_goal_name,target_sdg,flow_type,cashflow
+1,No Poverty (无贫穷),incoming,从外部流入,来自其他SDG大目标的流入,1,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,1,No Poverty (无贫穷),1.4_Pos,Neg_to_Pos,1720827.0
+1,No Poverty (无贫穷),incoming,从外部流入,来自其他SDG大目标的流入,2,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,1,No Poverty (无贫穷),1.4_Pos,Pos_to_Pos,1641486.0
+1,No Poverty (无贫穷),incoming,从外部流入,来自其他SDG大目标的流入,3,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,1,No Poverty (无贫穷),1.4_Pos,Neg_to_Pos,1568578.0
+1,No Poverty (无贫穷),incoming,从外部流入,来自其他SDG大目标的流入,4,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,1,No Poverty (无贫穷),1.4_Pos,Pos_to_Pos,1365747.0
+1,No Poverty (无贫穷),incoming,从外部流入,来自其他SDG大目标的流入,5,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,1,No Poverty (无贫穷),1.1_Pos,Neg_to_Pos,1197577.0
+1,No Poverty (无贫穷),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,1,No Poverty (无贫穷),1.4_Pos,1,No Poverty (无贫穷),1.4_Pos,Pos_to_Pos,387346.0
+1,No Poverty (无贫穷),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,1,No Poverty (无贫穷),1.4_Pos,1,No Poverty (无贫穷),1.4_Neg,Pos_to_Neg,67307.0
+1,No Poverty (无贫穷),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,1,No Poverty (无贫穷),1.4_Neg,1,No Poverty (无贫穷),1.4_Neg,Neg_to_Neg,48152.0
+1,No Poverty (无贫穷),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,1,No Poverty (无贫穷),1.3_Pos,1,No Poverty (无贫穷),1.3_Pos,Pos_to_Pos,42148.0
+1,No Poverty (无贫穷),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,1,No Poverty (无贫穷),1.1_Pos,1,No Poverty (无贫穷),1.1_Pos,Pos_to_Pos,15029.0
+1,No Poverty (无贫穷),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,1,No Poverty (无贫穷),1.4_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Pos_to_Pos,1634223.0
+1,No Poverty (无贫穷),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,1,No Poverty (无贫穷),1.4_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,1434612.0
+1,No Poverty (无贫穷),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,1,No Poverty (无贫穷),1.4_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Pos_to_Pos,1323831.0
+1,No Poverty (无贫穷),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,1,No Poverty (无贫穷),1.4_Pos,13,Climate Action (气候行动),13.2_Neg,Pos_to_Neg,1103070.0
+1,No Poverty (无贫穷),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,1,No Poverty (无贫穷),1.4_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,Pos_to_Pos,886924.0
+2,Zero Hunger (零饥饿),incoming,从外部流入,来自其他SDG大目标的流入,1,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,2,Zero Hunger (零饥饿),2.1_Pos,Neg_to_Pos,2927966.0
+2,Zero Hunger (零饥饿),incoming,从外部流入,来自其他SDG大目标的流入,2,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,2,Zero Hunger (零饥饿),2.4_Pos,Neg_to_Pos,2487091.0
+2,Zero Hunger (零饥饿),incoming,从外部流入,来自其他SDG大目标的流入,3,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,2,Zero Hunger (零饥饿),2.1_Pos,Pos_to_Pos,2472413.0
+2,Zero Hunger (零饥饿),incoming,从外部流入,来自其他SDG大目标的流入,4,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,2,Zero Hunger (零饥饿),2.4_Pos,Pos_to_Pos,2443581.0
+2,Zero Hunger (零饥饿),incoming,从外部流入,来自其他SDG大目标的流入,5,12,Responsible Consumption and Production (负责任消费和生产),12.3_Pos,2,Zero Hunger (零饥饿),2.1_Pos,Pos_to_Pos,2299946.0
+2,Zero Hunger (零饥饿),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,2,Zero Hunger (零饥饿),2.1_Pos,2,Zero Hunger (零饥饿),2.1_Pos,Pos_to_Pos,2691827.0
+2,Zero Hunger (零饥饿),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,2,Zero Hunger (零饥饿),2.1_Pos,2,Zero Hunger (零饥饿),2.4_Pos,Pos_to_Pos,2343633.0
+2,Zero Hunger (零饥饿),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,2,Zero Hunger (零饥饿),2.1_Pos,2,Zero Hunger (零饥饿),2.3_Pos,Pos_to_Pos,1164218.0
+2,Zero Hunger (零饥饿),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,2,Zero Hunger (零饥饿),2.c_Pos,2,Zero Hunger (零饥饿),2.1_Pos,Pos_to_Pos,1021313.0
+2,Zero Hunger (零饥饿),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,2,Zero Hunger (零饥饿),2.c_Pos,2,Zero Hunger (零饥饿),2.4_Pos,Pos_to_Pos,810290.0
+2,Zero Hunger (零饥饿),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,2,Zero Hunger (零饥饿),2.1_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,3901034.0
+2,Zero Hunger (零饥饿),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,2,Zero Hunger (零饥饿),2.1_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Pos_to_Pos,3508778.0
+2,Zero Hunger (零饥饿),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,2,Zero Hunger (零饥饿),2.1_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.3_Pos,Pos_to_Pos,3110879.0
+2,Zero Hunger (零饥饿),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,2,Zero Hunger (零饥饿),2.1_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Pos_to_Pos,2498906.0
+2,Zero Hunger (零饥饿),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,2,Zero Hunger (零饥饿),2.1_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Pos_to_Pos,2470086.0
+3,Good Health and Well-being (良好健康与福祉),incoming,从外部流入,来自其他SDG大目标的流入,1,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,3,Good Health and Well-being (良好健康与福祉),3.9_Neg,Neg_to_Neg,4356175.0
+3,Good Health and Well-being (良好健康与福祉),incoming,从外部流入,来自其他SDG大目标的流入,2,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,3,Good Health and Well-being (良好健康与福祉),3.9_Neg,Pos_to_Neg,3726940.0
+3,Good Health and Well-being (良好健康与福祉),incoming,从外部流入,来自其他SDG大目标的流入,3,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,3,Good Health and Well-being (良好健康与福祉),3.9_Neg,Pos_to_Neg,3573311.0
+3,Good Health and Well-being (良好健康与福祉),incoming,从外部流入,来自其他SDG大目标的流入,4,13,Climate Action (气候行动),13.2_Neg,3,Good Health and Well-being (良好健康与福祉),3.9_Neg,Neg_to_Neg,3418343.0
+3,Good Health and Well-being (良好健康与福祉),incoming,从外部流入,来自其他SDG大目标的流入,5,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,3,Good Health and Well-being (良好健康与福祉),3.9_Neg,Neg_to_Neg,2781170.0
+3,Good Health and Well-being (良好健康与福祉),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,3,Good Health and Well-being (良好健康与福祉),3.9_Neg,3,Good Health and Well-being (良好健康与福祉),3.9_Neg,Neg_to_Neg,2862060.0
+3,Good Health and Well-being (良好健康与福祉),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,3,Good Health and Well-being (良好健康与福祉),3.4_Neg,3,Good Health and Well-being (良好健康与福祉),3.4_Pos,Neg_to_Pos,990217.0
+3,Good Health and Well-being (良好健康与福祉),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,3,Good Health and Well-being (良好健康与福祉),3.8_Pos,3,Good Health and Well-being (良好健康与福祉),3.8_Pos,Pos_to_Pos,810273.0
+3,Good Health and Well-being (良好健康与福祉),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,3,Good Health and Well-being (良好健康与福祉),3.4_Pos,3,Good Health and Well-being (良好健康与福祉),3.9_Neg,Pos_to_Neg,808400.0
+3,Good Health and Well-being (良好健康与福祉),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,3,Good Health and Well-being (良好健康与福祉),3.4_Pos,3,Good Health and Well-being (良好健康与福祉),3.6_Neg,Pos_to_Neg,791906.0
+3,Good Health and Well-being (良好健康与福祉),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,3,Good Health and Well-being (良好健康与福祉),3.9_Neg,13,Climate Action (气候行动),13.2_Neg,Neg_to_Neg,4046209.0
+3,Good Health and Well-being (良好健康与福祉),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,3,Good Health and Well-being (良好健康与福祉),3.9_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Neg_to_Neg,4021562.0
+3,Good Health and Well-being (良好健康与福祉),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,3,Good Health and Well-being (良好健康与福祉),3.8_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,3932137.0
+3,Good Health and Well-being (良好健康与福祉),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,3,Good Health and Well-being (良好健康与福祉),3.9_Neg,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,Neg_to_Pos,3467182.0
+3,Good Health and Well-being (良好健康与福祉),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,3,Good Health and Well-being (良好健康与福祉),3.9_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Neg_to_Pos,3285250.0
+4,Quality Education (优质教育),incoming,从外部流入,来自其他SDG大目标的流入,1,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,4,Quality Education (优质教育),4.4_Pos,Pos_to_Pos,1137926.0
+4,Quality Education (优质教育),incoming,从外部流入,来自其他SDG大目标的流入,2,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,4,Quality Education (优质教育),4.4_Pos,Neg_to_Pos,1066703.0
+4,Quality Education (优质教育),incoming,从外部流入,来自其他SDG大目标的流入,3,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,4,Quality Education (优质教育),4.4_Pos,Pos_to_Pos,941198.0
+4,Quality Education (优质教育),incoming,从外部流入,来自其他SDG大目标的流入,4,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.c_Pos,4,Quality Education (优质教育),4.4_Pos,Pos_to_Pos,561814.0
+4,Quality Education (优质教育),incoming,从外部流入,来自其他SDG大目标的流入,5,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,4,Quality Education (优质教育),4.a_Pos,Pos_to_Pos,466016.0
+4,Quality Education (优质教育),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,4,Quality Education (优质教育),4.4_Pos,4,Quality Education (优质教育),4.4_Pos,Pos_to_Pos,745734.0
+4,Quality Education (优质教育),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,4,Quality Education (优质教育),4.4_Pos,4,Quality Education (优质教育),4.3_Pos,Pos_to_Pos,333691.0
+4,Quality Education (优质教育),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,4,Quality Education (优质教育),4.4_Pos,4,Quality Education (优质教育),4.a_Pos,Pos_to_Pos,329804.0
+4,Quality Education (优质教育),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,4,Quality Education (优质教育),4.1_Pos,4,Quality Education (优质教育),4.2_Pos,Pos_to_Pos,43887.0
+4,Quality Education (优质教育),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,4,Quality Education (优质教育),4.1_Pos,4,Quality Education (优质教育),4.2_Neg,Pos_to_Neg,42506.0
+4,Quality Education (优质教育),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,4,Quality Education (优质教育),4.1_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,2216236.0
+4,Quality Education (优质教育),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,4,Quality Education (优质教育),4.4_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,2087442.0
+4,Quality Education (优质教育),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,4,Quality Education (优质教育),4.4_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Pos_to_Pos,2081083.0
+4,Quality Education (优质教育),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,4,Quality Education (优质教育),4.1_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,Pos_to_Pos,2009381.0
+4,Quality Education (优质教育),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,4,Quality Education (优质教育),4.1_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Pos_to_Pos,1973234.0
+5,Gender Equality (性别平等),incoming,从外部流入,来自其他SDG大目标的流入,1,8,Decent Work and Economic Growth (体面工作和经济增长),8.3_Pos,5,Gender Equality (性别平等),5.5_Neg,Pos_to_Neg,137993.0
+5,Gender Equality (性别平等),incoming,从外部流入,来自其他SDG大目标的流入,2,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,5,Gender Equality (性别平等),5.5_Neg,Neg_to_Neg,114591.0
+5,Gender Equality (性别平等),incoming,从外部流入,来自其他SDG大目标的流入,3,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,5,Gender Equality (性别平等),5.5_Pos,Neg_to_Pos,102854.0
+5,Gender Equality (性别平等),incoming,从外部流入,来自其他SDG大目标的流入,4,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,5,Gender Equality (性别平等),5.5_Neg,Pos_to_Neg,100974.0
+5,Gender Equality (性别平等),incoming,从外部流入,来自其他SDG大目标的流入,5,8,Decent Work and Economic Growth (体面工作和经济增长),8.3_Pos,5,Gender Equality (性别平等),5.5_Pos,Pos_to_Pos,82568.0
+5,Gender Equality (性别平等),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,5,Gender Equality (性别平等),5.5_Neg,5,Gender Equality (性别平等),5.5_Neg,Neg_to_Neg,71467.0
+5,Gender Equality (性别平等),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,5,Gender Equality (性别平等),5.5_Pos,5,Gender Equality (性别平等),5.5_Pos,Pos_to_Pos,32644.0
+5,Gender Equality (性别平等),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,5,Gender Equality (性别平等),5.a_Pos,5,Gender Equality (性别平等),5.5_Pos,Pos_to_Pos,24101.0
+5,Gender Equality (性别平等),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,5,Gender Equality (性别平等),5.5_Pos,5,Gender Equality (性别平等),5.5_Neg,Pos_to_Neg,17963.0
+5,Gender Equality (性别平等),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,5,Gender Equality (性别平等),5.1_Neg,5,Gender Equality (性别平等),5.5_Pos,Neg_to_Pos,11784.0
+5,Gender Equality (性别平等),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,5,Gender Equality (性别平等),5.5_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,198990.0
+5,Gender Equality (性别平等),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,5,Gender Equality (性别平等),5.5_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Neg_to_Pos,188657.0
+5,Gender Equality (性别平等),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,5,Gender Equality (性别平等),5.5_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.3_Pos,Pos_to_Pos,181374.0
+5,Gender Equality (性别平等),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,5,Gender Equality (性别平等),5.5_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Neg_to_Neg,181007.0
+5,Gender Equality (性别平等),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,5,Gender Equality (性别平等),5.5_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.3_Pos,Neg_to_Pos,138599.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),incoming,从外部流入,来自其他SDG大目标的流入,1,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Neg,Neg_to_Neg,1114219.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),incoming,从外部流入,来自其他SDG大目标的流入,2,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Neg,Neg_to_Neg,1094811.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),incoming,从外部流入,来自其他SDG大目标的流入,3,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Neg,Pos_to_Neg,792988.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),incoming,从外部流入,来自其他SDG大目标的流入,4,12,Responsible Consumption and Production (负责任消费和生产),12.4_Neg,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Neg,Neg_to_Neg,690408.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),incoming,从外部流入,来自其他SDG大目标的流入,5,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Neg,Pos_to_Neg,639862.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Neg,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Neg,Neg_to_Neg,543262.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.1_Pos,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.1_Pos,Pos_to_Pos,321423.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.2_Pos,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.1_Pos,Pos_to_Pos,192334.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.1_Pos,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Pos,Pos_to_Pos,171910.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.2_Pos,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Pos,Pos_to_Pos,151142.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Neg_to_Pos,1351459.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Neg,13,Climate Action (气候行动),13.2_Neg,Neg_to_Neg,1159876.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Neg_to_Neg,1082848.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.3_Pos,Neg_to_Pos,1015607.0
+6,Clean Water and Sanitation (清洁饮水和卫生设施),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,6,Clean Water and Sanitation (清洁饮水和卫生设施),6.3_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,Neg_to_Neg,913904.0
+7,Affordable and Clean Energy (经济适用的清洁能源),incoming,从外部流入,来自其他SDG大目标的流入,1,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,7,Affordable and Clean Energy (经济适用的清洁能源),7.3_Pos,Pos_to_Pos,3667559.0
+7,Affordable and Clean Energy (经济适用的清洁能源),incoming,从外部流入,来自其他SDG大目标的流入,2,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,7,Affordable and Clean Energy (经济适用的清洁能源),7.3_Pos,Pos_to_Pos,2839513.0
+7,Affordable and Clean Energy (经济适用的清洁能源),incoming,从外部流入,来自其他SDG大目标的流入,3,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,7,Affordable and Clean Energy (经济适用的清洁能源),7.3_Pos,Pos_to_Pos,2589014.0
+7,Affordable and Clean Energy (经济适用的清洁能源),incoming,从外部流入,来自其他SDG大目标的流入,4,13,Climate Action (气候行动),13.2_Pos,7,Affordable and Clean Energy (经济适用的清洁能源),7.3_Pos,Pos_to_Pos,2177841.0
+7,Affordable and Clean Energy (经济适用的清洁能源),incoming,从外部流入,来自其他SDG大目标的流入,5,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,7,Affordable and Clean Energy (经济适用的清洁能源),7.2_Pos,Pos_to_Pos,2174122.0
+7,Affordable and Clean Energy (经济适用的清洁能源),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,7,Affordable and Clean Energy (经济适用的清洁能源),7.3_Pos,7,Affordable and Clean Energy (经济适用的清洁能源),7.3_Pos,Pos_to_Pos,2014429.0
+7,Affordable and Clean Energy (经济适用的清洁能源),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,7,Affordable and Clean Energy (经济适用的清洁能源),7.2_Pos,7,Affordable and Clean Energy (经济适用的清洁能源),7.2_Pos,Pos_to_Pos,1221305.0
+7,Affordable and Clean Energy (经济适用的清洁能源),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,7,Affordable and Clean Energy (经济适用的清洁能源),7.1_Pos,7,Affordable and Clean Energy (经济适用的清洁能源),7.1_Pos,Pos_to_Pos,934276.0
+7,Affordable and Clean Energy (经济适用的清洁能源),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,7,Affordable and Clean Energy (经济适用的清洁能源),7.2_Pos,7,Affordable and Clean Energy (经济适用的清洁能源),7.1_Pos,Pos_to_Pos,730011.0
+7,Affordable and Clean Energy (经济适用的清洁能源),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,7,Affordable and Clean Energy (经济适用的清洁能源),7.1_Pos,7,Affordable and Clean Energy (经济适用的清洁能源),7.2_Pos,Pos_to_Pos,626760.0
+7,Affordable and Clean Energy (经济适用的清洁能源),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,7,Affordable and Clean Energy (经济适用的清洁能源),7.3_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,3029615.0
+7,Affordable and Clean Energy (经济适用的清洁能源),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,7,Affordable and Clean Energy (经济适用的清洁能源),7.2_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Pos_to_Pos,2325061.0
+7,Affordable and Clean Energy (经济适用的清洁能源),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,7,Affordable and Clean Energy (经济适用的清洁能源),7.3_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Pos_to_Pos,2251156.0
+7,Affordable and Clean Energy (经济适用的清洁能源),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,7,Affordable and Clean Energy (经济适用的清洁能源),7.2_Pos,13,Climate Action (气候行动),13.2_Neg,Pos_to_Neg,2164616.0
+7,Affordable and Clean Energy (经济适用的清洁能源),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,7,Affordable and Clean Energy (经济适用的清洁能源),7.3_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Pos_to_Pos,1748120.0
+8,Decent Work and Economic Growth (体面工作和经济增长),incoming,从外部流入,来自其他SDG大目标的流入,1,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Neg_to_Pos,11630771.0
+8,Decent Work and Economic Growth (体面工作和经济增长),incoming,从外部流入,来自其他SDG大目标的流入,2,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Neg_to_Pos,8289324.0
+8,Decent Work and Economic Growth (体面工作和经济增长),incoming,从外部流入,来自其他SDG大目标的流入,3,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Pos_to_Pos,8278531.0
+8,Decent Work and Economic Growth (体面工作和经济增长),incoming,从外部流入,来自其他SDG大目标的流入,4,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Neg_to_Pos,7079252.0
+8,Decent Work and Economic Growth (体面工作和经济增长),incoming,从外部流入,来自其他SDG大目标的流入,5,13,Climate Action (气候行动),13.2_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Neg_to_Pos,7035130.0
+8,Decent Work and Economic Growth (体面工作和经济增长),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Pos_to_Pos,10729800.0
+8,Decent Work and Economic Growth (体面工作和经济增长),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Pos_to_Pos,9605599.0
+8,Decent Work and Economic Growth (体面工作和经济增长),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Pos_to_Pos,9508108.0
+8,Decent Work and Economic Growth (体面工作和经济增长),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Pos_to_Pos,5924926.0
+8,Decent Work and Economic Growth (体面工作和经济增长),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.8_Neg,Pos_to_Neg,5242367.0
+8,Decent Work and Economic Growth (体面工作和经济增长),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,12553804.0
+8,Decent Work and Economic Growth (体面工作和经济增长),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,11612766.0
+8,Decent Work and Economic Growth (体面工作和经济增长),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Pos_to_Pos,7820418.0
+8,Decent Work and Economic Growth (体面工作和经济增长),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,13,Climate Action (气候行动),13.2_Neg,Pos_to_Neg,7781545.0
+8,Decent Work and Economic Growth (体面工作和经济增长),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,Pos_to_Pos,7210428.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",incoming,从外部流入,来自其他SDG大目标的流入,1,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Neg_to_Pos,8534634.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",incoming,从外部流入,来自其他SDG大目标的流入,2,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,Neg_to_Pos,8328887.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",incoming,从外部流入,来自其他SDG大目标的流入,3,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Pos_to_Pos,7820418.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",incoming,从外部流入,来自其他SDG大目标的流入,4,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,Pos_to_Pos,7210428.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",incoming,从外部流入,来自其他SDG大目标的流入,5,13,Climate Action (气候行动),13.2_Neg,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Neg_to_Pos,7129130.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Pos_to_Pos,9938033.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,Pos_to_Pos,6970721.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,Pos_to_Pos,5392014.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Pos_to_Pos,4242881.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.2_Pos,Pos_to_Pos,2382290.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,11098343.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Pos_to_Pos,8278531.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,13,Climate Action (气候行动),13.2_Neg,Pos_to_Neg,8246100.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,6720033.0
+9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Pos_to_Pos,5455031.0
+10,Reduced Inequalities (减少不平等),incoming,从外部流入,来自其他SDG大目标的流入,1,8,Decent Work and Economic Growth (体面工作和经济增长),8.3_Pos,10,Reduced Inequalities (减少不平等),10.2_Pos,Pos_to_Pos,1093408.0
+10,Reduced Inequalities (减少不平等),incoming,从外部流入,来自其他SDG大目标的流入,2,13,Climate Action (气候行动),13.2_Neg,10,Reduced Inequalities (减少不平等),10.2_Pos,Neg_to_Pos,1091680.0
+10,Reduced Inequalities (减少不平等),incoming,从外部流入,来自其他SDG大目标的流入,3,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,10,Reduced Inequalities (减少不平等),10.2_Neg,Neg_to_Neg,861322.0
+10,Reduced Inequalities (减少不平等),incoming,从外部流入,来自其他SDG大目标的流入,4,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,10,Reduced Inequalities (减少不平等),10.2_Neg,Pos_to_Neg,831041.0
+10,Reduced Inequalities (减少不平等),incoming,从外部流入,来自其他SDG大目标的流入,5,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,10,Reduced Inequalities (减少不平等),10.2_Pos,Pos_to_Pos,813864.0
+10,Reduced Inequalities (减少不平等),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,10,Reduced Inequalities (减少不平等),10.2_Neg,10,Reduced Inequalities (减少不平等),10.2_Pos,Neg_to_Pos,689106.0
+10,Reduced Inequalities (减少不平等),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,10,Reduced Inequalities (减少不平等),10.3_Neg,10,Reduced Inequalities (减少不平等),10.2_Pos,Neg_to_Pos,669769.0
+10,Reduced Inequalities (减少不平等),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,10,Reduced Inequalities (减少不平等),10.2_Pos,10,Reduced Inequalities (减少不平等),10.2_Pos,Pos_to_Pos,626233.0
+10,Reduced Inequalities (减少不平等),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,10,Reduced Inequalities (减少不平等),10.3_Neg,10,Reduced Inequalities (减少不平等),10.2_Neg,Neg_to_Neg,369167.0
+10,Reduced Inequalities (减少不平等),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,10,Reduced Inequalities (减少不平等),10.2_Neg,10,Reduced Inequalities (减少不平等),10.2_Neg,Neg_to_Neg,362622.0
+10,Reduced Inequalities (减少不平等),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,10,Reduced Inequalities (减少不平等),10.2_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,3055121.0
+10,Reduced Inequalities (减少不平等),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,10,Reduced Inequalities (减少不平等),10.2_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Pos_to_Pos,2683307.0
+10,Reduced Inequalities (减少不平等),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,10,Reduced Inequalities (减少不平等),10.2_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Pos_to_Pos,2655166.0
+10,Reduced Inequalities (减少不平等),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,10,Reduced Inequalities (减少不平等),10.2_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Pos_to_Pos,2295174.0
+10,Reduced Inequalities (减少不平等),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,10,Reduced Inequalities (减少不平等),10.2_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.8_Neg,Pos_to_Neg,1767425.0
+11,Sustainable Cities and Communities (可持续城市和社区),incoming,从外部流入,来自其他SDG大目标的流入,1,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,11,Sustainable Cities and Communities (可持续城市和社区),11.1_Pos,Pos_to_Pos,2065479.0
+11,Sustainable Cities and Communities (可持续城市和社区),incoming,从外部流入,来自其他SDG大目标的流入,2,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,11,Sustainable Cities and Communities (可持续城市和社区),11.1_Pos,Neg_to_Pos,2054256.0
+11,Sustainable Cities and Communities (可持续城市和社区),incoming,从外部流入,来自其他SDG大目标的流入,3,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,11,Sustainable Cities and Communities (可持续城市和社区),11.1_Pos,Pos_to_Pos,1955501.0
+11,Sustainable Cities and Communities (可持续城市和社区),incoming,从外部流入,来自其他SDG大目标的流入,4,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,11,Sustainable Cities and Communities (可持续城市和社区),11.6_Neg,Neg_to_Neg,1596581.0
+11,Sustainable Cities and Communities (可持续城市和社区),incoming,从外部流入,来自其他SDG大目标的流入,5,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,11,Sustainable Cities and Communities (可持续城市和社区),11.2_Neg,Neg_to_Neg,1585783.0
+11,Sustainable Cities and Communities (可持续城市和社区),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,11,Sustainable Cities and Communities (可持续城市和社区),11.1_Pos,11,Sustainable Cities and Communities (可持续城市和社区),11.1_Pos,Pos_to_Pos,1780898.0
+11,Sustainable Cities and Communities (可持续城市和社区),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,11,Sustainable Cities and Communities (可持续城市和社区),11.3_Pos,11,Sustainable Cities and Communities (可持续城市和社区),11.1_Pos,Pos_to_Pos,444543.0
+11,Sustainable Cities and Communities (可持续城市和社区),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,11,Sustainable Cities and Communities (可持续城市和社区),11.1_Pos,11,Sustainable Cities and Communities (可持续城市和社区),11.2_Pos,Pos_to_Pos,392401.0
+11,Sustainable Cities and Communities (可持续城市和社区),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,11,Sustainable Cities and Communities (可持续城市和社区),11.1_Pos,11,Sustainable Cities and Communities (可持续城市和社区),11.6_Pos,Pos_to_Pos,288886.0
+11,Sustainable Cities and Communities (可持续城市和社区),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,11,Sustainable Cities and Communities (可持续城市和社区),11.2_Neg,11,Sustainable Cities and Communities (可持续城市和社区),11.2_Neg,Neg_to_Neg,283444.0
+11,Sustainable Cities and Communities (可持续城市和社区),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,11,Sustainable Cities and Communities (可持续城市和社区),11.1_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,4403409.0
+11,Sustainable Cities and Communities (可持续城市和社区),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,11,Sustainable Cities and Communities (可持续城市和社区),11.1_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Pos_to_Pos,3905946.0
+11,Sustainable Cities and Communities (可持续城市和社区),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,11,Sustainable Cities and Communities (可持续城市和社区),11.1_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,Pos_to_Pos,3417896.0
+11,Sustainable Cities and Communities (可持续城市和社区),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,11,Sustainable Cities and Communities (可持续城市和社区),11.1_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Pos_to_Pos,3413953.0
+11,Sustainable Cities and Communities (可持续城市和社区),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,11,Sustainable Cities and Communities (可持续城市和社区),11.1_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.8_Neg,Pos_to_Neg,2599933.0
+12,Responsible Consumption and Production (负责任消费和生产),incoming,从外部流入,来自其他SDG大目标的流入,1,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,12553804.0
+12,Responsible Consumption and Production (负责任消费和生产),incoming,从外部流入,来自其他SDG大目标的流入,2,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,11612766.0
+12,Responsible Consumption and Production (负责任消费和生产),incoming,从外部流入,来自其他SDG大目标的流入,3,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,11098343.0
+12,Responsible Consumption and Production (负责任消费和生产),incoming,从外部流入,来自其他SDG大目标的流入,4,13,Climate Action (气候行动),13.2_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Neg_to_Neg,9181775.0
+12,Responsible Consumption and Production (负责任消费和生产),incoming,从外部流入,来自其他SDG大目标的流入,5,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,6720033.0
+12,Responsible Consumption and Production (负责任消费和生产),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Neg_to_Neg,15630321.0
+12,Responsible Consumption and Production (负责任消费和生产),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Neg_to_Neg,9020728.0
+12,Responsible Consumption and Production (负责任消费和生产),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,Neg_to_Neg,8319480.0
+12,Responsible Consumption and Production (负责任消费和生产),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.4_Neg,Neg_to_Neg,7597733.0
+12,Responsible Consumption and Production (负责任消费和生产),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,Neg_to_Neg,7363774.0
+12,Responsible Consumption and Production (负责任消费和生产),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Neg_to_Pos,11630771.0
+12,Responsible Consumption and Production (负责任消费和生产),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Neg_to_Pos,8534634.0
+12,Responsible Consumption and Production (负责任消费和生产),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,Neg_to_Pos,8328887.0
+12,Responsible Consumption and Production (负责任消费和生产),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Neg_to_Pos,8289324.0
+12,Responsible Consumption and Production (负责任消费和生产),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,13,Climate Action (气候行动),13.2_Neg,Neg_to_Neg,7700249.0
+13,Climate Action (气候行动),incoming,从外部流入,来自其他SDG大目标的流入,1,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,13,Climate Action (气候行动),13.2_Neg,Pos_to_Neg,8246100.0
+13,Climate Action (气候行动),incoming,从外部流入,来自其他SDG大目标的流入,2,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,13,Climate Action (气候行动),13.2_Neg,Pos_to_Neg,7781545.0
+13,Climate Action (气候行动),incoming,从外部流入,来自其他SDG大目标的流入,3,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,13,Climate Action (气候行动),13.2_Neg,Neg_to_Neg,7700249.0
+13,Climate Action (气候行动),incoming,从外部流入,来自其他SDG大目标的流入,4,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,13,Climate Action (气候行动),13.2_Neg,Neg_to_Neg,5838809.0
+13,Climate Action (气候行动),incoming,从外部流入,来自其他SDG大目标的流入,5,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,13,Climate Action (气候行动),13.2_Neg,Pos_to_Neg,5604092.0
+13,Climate Action (气候行动),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,13,Climate Action (气候行动),13.2_Neg,13,Climate Action (气候行动),13.2_Neg,Neg_to_Neg,8075524.0
+13,Climate Action (气候行动),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,13,Climate Action (气候行动),13.2_Pos,13,Climate Action (气候行动),13.2_Neg,Pos_to_Neg,2204486.0
+13,Climate Action (气候行动),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,13,Climate Action (气候行动),13.2_Neg,13,Climate Action (气候行动),13.2_Pos,Neg_to_Pos,2028238.0
+13,Climate Action (气候行动),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,13,Climate Action (气候行动),13.2_Pos,13,Climate Action (气候行动),13.2_Pos,Pos_to_Pos,1217969.0
+13,Climate Action (气候行动),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,13,Climate Action (气候行动),13.1_Pos,13,Climate Action (气候行动),13.2_Neg,Pos_to_Neg,389223.0
+13,Climate Action (气候行动),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,13,Climate Action (气候行动),13.2_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Neg_to_Neg,9181775.0
+13,Climate Action (气候行动),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,13,Climate Action (气候行动),13.2_Neg,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Neg_to_Pos,7129130.0
+13,Climate Action (气候行动),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,13,Climate Action (气候行动),13.2_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Neg_to_Pos,7035130.0
+13,Climate Action (气候行动),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,13,Climate Action (气候行动),13.2_Neg,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,Neg_to_Pos,5544614.0
+13,Climate Action (气候行动),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,13,Climate Action (气候行动),13.2_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Neg_to_Pos,5487791.0
+14,Life Below Water (水下生物),incoming,从外部流入,来自其他SDG大目标的流入,1,13,Climate Action (气候行动),13.2_Neg,14,Life Below Water (水下生物),14.1_Neg,Neg_to_Neg,732013.0
+14,Life Below Water (水下生物),incoming,从外部流入,来自其他SDG大目标的流入,2,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,14,Life Below Water (水下生物),14.1_Neg,Neg_to_Neg,693746.0
+14,Life Below Water (水下生物),incoming,从外部流入,来自其他SDG大目标的流入,3,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,14,Life Below Water (水下生物),14.1_Neg,Neg_to_Neg,635483.0
+14,Life Below Water (水下生物),incoming,从外部流入,来自其他SDG大目标的流入,4,12,Responsible Consumption and Production (负责任消费和生产),12.4_Neg,14,Life Below Water (水下生物),14.1_Neg,Neg_to_Neg,595129.0
+14,Life Below Water (水下生物),incoming,从外部流入,来自其他SDG大目标的流入,5,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,14,Life Below Water (水下生物),14.1_Neg,Pos_to_Neg,593846.0
+14,Life Below Water (水下生物),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,14,Life Below Water (水下生物),14.1_Neg,14,Life Below Water (水下生物),14.1_Neg,Neg_to_Neg,319811.0
+14,Life Below Water (水下生物),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,14,Life Below Water (水下生物),14.4_Neg,14,Life Below Water (水下生物),14.4_Neg,Neg_to_Neg,123531.0
+14,Life Below Water (水下生物),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,14,Life Below Water (水下生物),14.4_Neg,14,Life Below Water (水下生物),14.6_Neg,Neg_to_Neg,121470.0
+14,Life Below Water (水下生物),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,14,Life Below Water (水下生物),14.6_Neg,14,Life Below Water (水下生物),14.4_Neg,Neg_to_Neg,119227.0
+14,Life Below Water (水下生物),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,14,Life Below Water (水下生物),14.6_Neg,14,Life Below Water (水下生物),14.6_Neg,Neg_to_Neg,117568.0
+14,Life Below Water (水下生物),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,14,Life Below Water (水下生物),14.1_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Neg_to_Neg,534612.0
+14,Life Below Water (水下生物),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,14,Life Below Water (水下生物),14.1_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,Neg_to_Neg,403389.0
+14,Life Below Water (水下生物),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,14,Life Below Water (水下生物),14.1_Neg,13,Climate Action (气候行动),13.2_Neg,Neg_to_Neg,383048.0
+14,Life Below Water (水下生物),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,14,Life Below Water (水下生物),14.1_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Neg_to_Pos,380564.0
+14,Life Below Water (水下生物),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,14,Life Below Water (水下生物),14.1_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.4_Neg,Neg_to_Neg,365504.0
+15,Life on Land (陆地生物),incoming,从外部流入,来自其他SDG大目标的流入,1,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,15,Life on Land (陆地生物),15.1_Neg,Neg_to_Neg,2604601.0
+15,Life on Land (陆地生物),incoming,从外部流入,来自其他SDG大目标的流入,2,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,15,Life on Land (陆地生物),15.1_Neg,Neg_to_Neg,2299279.0
+15,Life on Land (陆地生物),incoming,从外部流入,来自其他SDG大目标的流入,3,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,15,Life on Land (陆地生物),15.1_Neg,Pos_to_Neg,1938891.0
+15,Life on Land (陆地生物),incoming,从外部流入,来自其他SDG大目标的流入,4,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,15,Life on Land (陆地生物),15.1_Neg,Pos_to_Neg,1915942.0
+15,Life on Land (陆地生物),incoming,从外部流入,来自其他SDG大目标的流入,5,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,15,Life on Land (陆地生物),15.1_Neg,Pos_to_Neg,1534395.0
+15,Life on Land (陆地生物),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,15,Life on Land (陆地生物),15.1_Neg,15,Life on Land (陆地生物),15.1_Neg,Neg_to_Neg,1338144.0
+15,Life on Land (陆地生物),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,15,Life on Land (陆地生物),15.2_Neg,15,Life on Land (陆地生物),15.2_Neg,Neg_to_Neg,976272.0
+15,Life on Land (陆地生物),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,15,Life on Land (陆地生物),15.1_Neg,15,Life on Land (陆地生物),15.2_Pos,Neg_to_Pos,607913.0
+15,Life on Land (陆地生物),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,15,Life on Land (陆地生物),15.1_Neg,15,Life on Land (陆地生物),15.2_Neg,Neg_to_Neg,555264.0
+15,Life on Land (陆地生物),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,15,Life on Land (陆地生物),15.1_Neg,15,Life on Land (陆地生物),15.1_Pos,Neg_to_Pos,528989.0
+15,Life on Land (陆地生物),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,15,Life on Land (陆地生物),15.1_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Neg_to_Neg,3245927.0
+15,Life on Land (陆地生物),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,15,Life on Land (陆地生物),15.1_Neg,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Neg_to_Pos,2551508.0
+15,Life on Land (陆地生物),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,15,Life on Land (陆地生物),15.1_Neg,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Neg_to_Pos,2384248.0
+15,Life on Land (陆地生物),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,15,Life on Land (陆地生物),15.1_Neg,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,Neg_to_Pos,2303295.0
+15,Life on Land (陆地生物),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,15,Life on Land (陆地生物),15.1_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,Neg_to_Neg,2016781.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",incoming,从外部流入,来自其他SDG大目标的流入,1,8,Decent Work and Economic Growth (体面工作和经济增长),8.3_Pos,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.6_Neg,Pos_to_Neg,1162715.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",incoming,从外部流入,来自其他SDG大目标的流入,2,8,Decent Work and Economic Growth (体面工作和经济增长),8.3_Pos,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.10_Neg,Pos_to_Neg,1109330.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",incoming,从外部流入,来自其他SDG大目标的流入,3,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.6_Neg,Pos_to_Neg,1091042.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",incoming,从外部流入,来自其他SDG大目标的流入,4,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.6_Neg,Pos_to_Neg,1087822.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",incoming,从外部流入,来自其他SDG大目标的流入,5,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.10_Neg,Pos_to_Neg,1078281.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.6_Pos,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.6_Pos,Pos_to_Pos,366101.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.5_Pos,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.6_Pos,Pos_to_Pos,304686.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.5_Pos,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.5_Pos,Pos_to_Pos,304662.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.6_Pos,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.5_Pos,Pos_to_Pos,304662.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.6_Neg,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.6_Neg,Neg_to_Neg,146817.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.6_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Pos_to_Pos,2957583.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.6_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,2938620.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.6_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.5_Pos,Pos_to_Pos,2497094.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.6_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.4_Pos,Pos_to_Pos,2320697.0
+16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,16,"Peace, Justice and Strong Institutions (和平、正义与强大机构)",16.5_Neg,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Neg_to_Neg,2261182.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),incoming,从外部流入,来自其他SDG大目标的流入,1,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.6_Pos,Pos_to_Pos,1305495.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),incoming,从外部流入,来自其他SDG大目标的流入,2,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.17_Pos,Neg_to_Pos,1200071.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),incoming,从外部流入,来自其他SDG大目标的流入,3,12,Responsible Consumption and Production (负责任消费和生产),12.2_Neg,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.6_Pos,Neg_to_Pos,1198783.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),incoming,从外部流入,来自其他SDG大目标的流入,4,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.6_Pos,Neg_to_Pos,1196847.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),incoming,从外部流入,来自其他SDG大目标的流入,5,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.17_Pos,Pos_to_Pos,1147679.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,1,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.11_Pos,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.11_Pos,Pos_to_Pos,320670.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,2,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.16_Pos,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.17_Pos,Pos_to_Pos,48923.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,3,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.16_Pos,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.14_Pos,Pos_to_Pos,48534.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,4,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.14_Pos,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.17_Pos,Pos_to_Pos,41927.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),internal,内部流动,同一SDG大目标内部子目标之间的流动（含自环）,5,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.14_Neg,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.17_Pos,Neg_to_Pos,41917.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,1,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.11_Pos,9,"Industry, Innovation and Infrastructure (产业、创新和基础设施)",9.1_Pos,Pos_to_Pos,997059.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,2,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.11_Pos,13,Climate Action (气候行动),13.2_Neg,Pos_to_Neg,951515.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,3,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.16_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,723265.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,4,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.17_Pos,8,Decent Work and Economic Growth (体面工作和经济增长),8.2_Pos,Pos_to_Pos,691639.0
+17,Partnerships for the Goals (促进目标实现的伙伴关系),outgoing,流出到外部,从本SDG大目标流向其他SDG大目标,5,17,Partnerships for the Goals (促进目标实现的伙伴关系),17.11_Pos,12,Responsible Consumption and Production (负责任消费和生产),12.5_Neg,Pos_to_Neg,680553.0

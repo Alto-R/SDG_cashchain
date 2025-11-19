@@ -7,3 +7,5 @@ output
 cashchain.gephi
 *.png
 code/visualization/sankey
+outcome
+code/visualization/community
