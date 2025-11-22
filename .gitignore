@@ -4,8 +4,11 @@ code/preprocess/industry10.csv
 code/preprocess/unique_combinations.csv
 data
 output
-cashchain.gephi
+*.gephi
 *.png
+*.html
+*.csv
 code/visualization/sankey
 outcome
 code/visualization/community
+sbm/visualization

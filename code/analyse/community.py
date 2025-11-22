@@ -19,7 +19,6 @@ and 2m^+, 2m^- are twice the total positive/negative edge weights.
 from __future__ import annotations
 
 import argparse
-import math
 import random
 from collections import defaultdict, Counter
 from dataclasses import dataclass
@@ -33,16 +32,9 @@ POSITIVE_FLOWS = {"Pos_to_Pos", "Neg_to_Neg"}
 NEGATIVE_FLOWS = {"Pos_to_Neg", "Neg_to_Pos"}
 
 
-def _normalize_pair(u: str, v: str) -> Tuple[str, str]:
-    """Return an undirected key for the pair (order independent)."""
-    if u <= v:
-        return u, v
-    return v, u
-
-
 @dataclass(frozen=True)
 class SignedEdge:
-    """Container for aggregated undirected signed weights."""
+    """Container for aggregated signed weights (direction preserved)."""
 
     source: str
     target: str
@@ -51,15 +43,19 @@ class SignedEdge:
 
 
 class SignedGraph:
-    """Undirected signed graph with helper methods for Louvain."""
+    """Directed signed graph with helper methods for Louvain."""
 
     def __init__(self, nodes: Iterable[str], edges: Iterable[SignedEdge]) -> None:
         self.nodes: List[str] = sorted(set(nodes))
         self.edges: List[SignedEdge] = list(edges)
-        self.pos_adj: Dict[str, Dict[str, float]] = {n: {} for n in self.nodes}
-        self.neg_adj: Dict[str, Dict[str, float]] = {n: {} for n in self.nodes}
-        self.pos_degree: Dict[str, float] = Counter()
-        self.neg_degree: Dict[str, float] = Counter()
+        self.pos_out: Dict[str, Dict[str, float]] = {n: {} for n in self.nodes}
+        self.pos_in: Dict[str, Dict[str, float]] = {n: {} for n in self.nodes}
+        self.neg_out: Dict[str, Dict[str, float]] = {n: {} for n in self.nodes}
+        self.neg_in: Dict[str, Dict[str, float]] = {n: {} for n in self.nodes}
+        self.pos_out_degree: Dict[str, float] = Counter()
+        self.pos_in_degree: Dict[str, float] = Counter()
+        self.neg_out_degree: Dict[str, float] = Counter()
+        self.neg_in_degree: Dict[str, float] = Counter()
         self.total_pos_weight = 0.0
         self.total_neg_weight = 0.0
 
@@ -67,31 +63,25 @@ class SignedGraph:
             u, v, pos_w, neg_w = edge.source, edge.target, edge.positive, edge.negative
             if pos_w > 0:
                 self.total_pos_weight += pos_w
-                self._add_weight(self.pos_adj, u, v, pos_w)
-                if u == v:
-                    self.pos_degree[u] += 2.0 * pos_w
-                else:
-                    self.pos_degree[u] += pos_w
-                    self.pos_degree[v] += pos_w
+                self._add_directed(self.pos_out, u, v, pos_w)
+                self._add_directed(self.pos_in, v, u, pos_w)
+                self.pos_out_degree[u] += pos_w
+                self.pos_in_degree[v] += pos_w
 
             if neg_w > 0:
                 self.total_neg_weight += neg_w
-                self._add_weight(self.neg_adj, u, v, neg_w)
-                if u == v:
-                    self.neg_degree[u] += 2.0 * neg_w
-                else:
-                    self.neg_degree[u] += neg_w
-                    self.neg_degree[v] += neg_w
+                self._add_directed(self.neg_out, u, v, neg_w)
+                self._add_directed(self.neg_in, v, u, neg_w)
+                self.neg_out_degree[u] += neg_w
+                self.neg_in_degree[v] += neg_w
 
     @staticmethod
-    def _add_weight(adj: Dict[str, Dict[str, float]], u: str, v: str, weight: float) -> None:
+    def _add_directed(adj: Dict[str, Dict[str, float]], u: str, v: str, weight: float) -> None:
         adj[u][v] = adj[u].get(v, 0.0) + weight
-        if u != v:
-            adj[v][u] = adj[v].get(u, 0.0) + weight
 
     def neighbors(self, node: str) -> Set[str]:
-        pos_neigh = set(self.pos_adj.get(node, {}))
-        neg_neigh = set(self.neg_adj.get(node, {}))
+        pos_neigh = set(self.pos_out.get(node, {})) | set(self.pos_in.get(node, {}))
+        neg_neigh = set(self.neg_out.get(node, {})) | set(self.neg_in.get(node, {}))
         return pos_neigh | neg_neigh
 
     def num_nodes(self) -> int:
@@ -102,7 +92,7 @@ def load_signed_graph(
     csv_path: str,
     min_cashflow: float = 0.0,
 ) -> SignedGraph:
-    """Load sdg_cashflow_network.csv and split edges into signed weights."""
+    """Load sdg_cashflow_network.csv and split edges into signed weights (direction preserved)."""
 
     df = pd.read_csv(csv_path)
     df = df[df["cashflow"] > 0]
@@ -119,7 +109,7 @@ def load_signed_graph(
         weight = float(getattr(row, "cashflow", 0.0))
         if weight <= 0:
             continue
-        key = _normalize_pair(src, tgt)
+        key = (src, tgt)
         bucket = edge_map.setdefault(key, {"pos": 0.0, "neg": 0.0})
         if flow_type in POSITIVE_FLOWS:
             bucket["pos"] += weight
@@ -138,7 +128,7 @@ def load_signed_graph(
 
 
 def compute_signed_modularity(graph: SignedGraph, partition: Mapping[str, int]) -> float:
-    """Compute signed modularity for a given node→community mapping."""
+    """Compute directed signed modularity for a given node→community mapping."""
 
     communities: Dict[int, List[str]] = defaultdict(list)
     for node, comm in partition.items():
@@ -146,32 +136,44 @@ def compute_signed_modularity(graph: SignedGraph, partition: Mapping[str, int]) 
 
     q_pos = 0.0
     q_neg = 0.0
-    two_m_pos = 2.0 * graph.total_pos_weight
-    two_m_neg = 2.0 * graph.total_neg_weight
+    m_pos = graph.total_pos_weight
+    m_neg = graph.total_neg_weight
 
-    if two_m_pos > 0:
+    if m_pos > 0:
         pos_intra = Counter()
         for edge in graph.edges:
             if edge.positive <= 0:
                 continue
             if partition[edge.source] == partition[edge.target]:
                 pos_intra[partition[edge.source]] += edge.positive
-        for comm, nodes in communities.items():
+        pos_out_tot = Counter()
+        pos_in_tot = Counter()
+        for node, comm in partition.items():
+            pos_out_tot[comm] += graph.pos_out_degree.get(node, 0.0)
+            pos_in_tot[comm] += graph.pos_in_degree.get(node, 0.0)
+        for comm in communities:
             sum_in = pos_intra.get(comm, 0.0)
-            sum_tot = sum(graph.pos_degree.get(node, 0.0) for node in nodes)
-            q_pos += (sum_in / two_m_pos) - (sum_tot / two_m_pos) ** 2
+            sum_out_tot = pos_out_tot.get(comm, 0.0)
+            sum_in_tot = pos_in_tot.get(comm, 0.0)
+            q_pos += (sum_in / m_pos) - (sum_out_tot * sum_in_tot) / (m_pos * m_pos)
 
-    if two_m_neg > 0:
+    if m_neg > 0:
         neg_intra = Counter()
         for edge in graph.edges:
             if edge.negative <= 0:
                 continue
             if partition[edge.source] == partition[edge.target]:
                 neg_intra[partition[edge.source]] += edge.negative
-        for comm, nodes in communities.items():
+        neg_out_tot = Counter()
+        neg_in_tot = Counter()
+        for node, comm in partition.items():
+            neg_out_tot[comm] += graph.neg_out_degree.get(node, 0.0)
+            neg_in_tot[comm] += graph.neg_in_degree.get(node, 0.0)
+        for comm in communities:
             sum_in = neg_intra.get(comm, 0.0)
-            sum_tot = sum(graph.neg_degree.get(node, 0.0) for node in nodes)
-            q_neg += (sum_in / two_m_neg) - (sum_tot / two_m_neg) ** 2
+            sum_out_tot = neg_out_tot.get(comm, 0.0)
+            sum_in_tot = neg_in_tot.get(comm, 0.0)
+            q_neg += (sum_in / m_neg) - (sum_out_tot * sum_in_tot) / (m_neg * m_neg)
 
     return q_pos - q_neg
 
@@ -234,14 +236,14 @@ def local_movement(
 
 
 def aggregate_graph(graph: SignedGraph, partition: Mapping[str, int]) -> SignedGraph:
-    """Collapse communities to build the next-level graph."""
+    """Collapse communities to build the next-level directed graph."""
 
     new_nodes = sorted(set(partition.values()))
     edge_accumulator: Dict[Tuple[int, int], List[float]] = {}
     for edge in graph.edges:
         src_comm = partition[edge.source]
         tgt_comm = partition[edge.target]
-        key = (src_comm, tgt_comm) if src_comm <= tgt_comm else (tgt_comm, src_comm)
+        key = (src_comm, tgt_comm)
         bucket = edge_accumulator.setdefault(key, [0.0, 0.0])
         bucket[0] += edge.positive
         bucket[1] += edge.negative
@@ -332,8 +334,8 @@ def summarize_partition(
                 "node": node,
                 "community": comm,
                 "node_type": node_type,
-                "positive_degree": graph.pos_degree.get(node, 0.0),
-                "negative_degree": graph.neg_degree.get(node, 0.0),
+                "positive_degree": graph.pos_out_degree.get(node, 0.0) + graph.pos_in_degree.get(node, 0.0),
+                "negative_degree": graph.neg_out_degree.get(node, 0.0) + graph.neg_in_degree.get(node, 0.0),
             }
         )
     columns = ["node", "community", "node_type", "positive_degree", "negative_degree"]
